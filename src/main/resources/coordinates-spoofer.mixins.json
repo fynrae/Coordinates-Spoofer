@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.fynrae.main.coordinate_spoofer.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"DebugScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

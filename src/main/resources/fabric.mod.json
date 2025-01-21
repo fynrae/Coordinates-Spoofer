@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "coordinates-spoofer",
+	"version": "${version}",
+	"name": "Coordinate Spoofer",
+	"description": "A mod that spoofs player coordinates",
+	"authors": [
+		"fynrae"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			{
+				"adapter": "default",
+				"value": "net.fynrae.main.coordinate_spoofer.CoordinatesSpoofer"
+			}
+		]
+	},
+	"mixins": [
+		"coordinates-spoofer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.12.5",
+		"fabric": "*",
+		"minecraft": ">=1.21.4"
+	}
+}
